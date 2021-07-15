@@ -3,6 +3,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1e1d1d"
     tools:context=".Imcactivity">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:src="@drawable/ok" />
+
+    <RelativeLayout
+        android:id="@+id/contentlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/cardbackground"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/imcdisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="55"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/genderdisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imcdisplay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Gênero"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genderdisplay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/raleway"
+            android:text="SEU IMC: "
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/recalculatebmi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/contentlayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttonbackground"
+        android:text="Recalcular IMC"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
