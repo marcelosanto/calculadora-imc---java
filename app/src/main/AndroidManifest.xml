@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculadoraIMC">
         <activity android:name=".Imcactivity"></activity>
-        <activity android:name=".splash" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

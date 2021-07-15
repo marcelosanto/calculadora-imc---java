@@ -23,6 +23,7 @@
         android:text="IMC CALCULADORA"
         android:textColor="@color/white"
         android:textSize="20sp"
+        android:fontFamily="@font/raleway"
         android:textStyle="bold" />
 
 

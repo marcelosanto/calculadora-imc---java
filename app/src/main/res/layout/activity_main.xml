@@ -44,6 +44,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10dp"
             android:text="Homem"
+            android:fontFamily="@font/raleway"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18sp"
@@ -76,6 +77,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10dp"
             android:text="Mulher"
+            android:fontFamily="@font/raleway"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18sp"
@@ -100,6 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="Peso"
+            android:fontFamily="@font/raleway"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18sp"
@@ -167,6 +170,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="Idade"
+            android:fontFamily="@font/raleway"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18sp"
@@ -231,6 +235,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Altura"
+            android:fontFamily="@font/raleway"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20sp"
@@ -267,7 +272,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="20dp"
-            android:progressTint="FF4c4c" />
+            android:progressTint="#FF4c4c" />
     </RelativeLayout>
 
     <androidx.appcompat.widget.AppCompatButton
