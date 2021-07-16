@@ -58,7 +58,7 @@ public class Imcactivity extends AppCompatActivity {
 
         intimc = intweight / (intheight * intheight);
 
-        mimc = Float.toString(intimc);
+        mimc = String.format("%.02f", intimc);
 
         if (intimc < 16.9) {
             mimccategory.setText("Muito abaixo do peso");
